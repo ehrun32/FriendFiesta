@@ -6,7 +6,7 @@
  
 
 ## Project Summary
-FriendFiesta is a messenger application designed for users to join chatrooms and engage in real-time conversations with strangers. The app will be developed using Python and a combination of the socket.io, flask, SQL and flask-socketio frameworks. The users will have the option to join a chatroom with a unique name and engage in immediate, seamless conversations with others. Another benefit of the app is that users can access the history of previous conversations and review past messages..
+FriendFiesta is a messenger application designed for users to join chatrooms and engage in real-time conversations with strangers. The app will be developed using Python and a combination of the socket.io, flask, SQL and flask-socketio frameworks. The users will have the option to join a chatroom with a unique name and engage in immediate, seamless conversations with others. Another benefit of the app is that users can access the history of previous conversations and review past messages.
 
 ## Requirements
 Make sure to install the required framworks for this applciation, also need python 3.6+ for this project to work
