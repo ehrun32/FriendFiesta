@@ -6,7 +6,7 @@
  
 
 ## Project Summary
-FriendFiesta is a messenger application designed for users to join chatrooms and engage in real-time conversations with strangers. The app will be developed using Python and a combination of the socket.io, flask, and flask-socketio frameworks. The users will have the option to join a chatroom with a unique name and engage in immediate, seamless conversations with others. Another benefit of the app is that users can access the history of previous conversations and review past messages..
+FriendFiesta is a messenger application designed for users to join chatrooms and engage in real-time conversations with strangers. The app will be developed using Python and a combination of the socket.io, flask, SQL and flask-socketio frameworks. The users will have the option to join a chatroom with a unique name and engage in immediate, seamless conversations with others. Another benefit of the app is that users can access the history of previous conversations and review past messages..
 
 ## Requirements
 Make sure to install the required framworks for this applciation, also need python 3.6+ for this project to work
@@ -33,6 +33,29 @@ Click on the main.py file and just run this file on your localhost network and o
 - Flask is a lightweight web framework for Python that is considered a "microframework." This is because it does not include any specific tools or libraries and is minimal in its design. It lacks a database abstraction layer, form validation, and other components that are commonly provided by third-party libraries. Flask's simplicity allows developers to build small, specific applications without being weighed down by unnecessary features.
 ### flask-socketio
 - Socket.IO integration for Flask applications. It is built over python-socketio which provides Python implementations of a Socket.IO client and server.
+
+## File Explanation
+### main.py
+- Calls the whole appilcation and start the web server
+
+### __init.py__
+- This file creates a new flask appication and import the necessary module.
+
+### database.py
+
+- Works as an sqlite database, it makes a table, closes a connection, creates a table just some basic query with SQL. 
+- We will take the message by the date and time and returns it in a JSON format.
+- This will store all the messages.
+
+### views.py
+- This is wher all the routes, login, history and signout.
+
+### filter.py
+- A custom slice filter.
+
+### config.py
+- necessary requirements for the webserver.
+
 ## Flow of events
 
 <p align="center">
