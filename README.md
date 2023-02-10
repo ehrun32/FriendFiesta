@@ -86,7 +86,7 @@ The final web application design along with its implemented features are shown b
 
 Things to improve:
 - Make the app scalable with a lot of users
-- Make the app have a password for loggin in
+- Make the app have a password for logging in
 
 
 
